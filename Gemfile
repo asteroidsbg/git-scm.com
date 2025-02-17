@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby "2.1.8"
 
-gem 'rails', '4.2.6'
+gem 'rails', '7.0.0'
 gem 'rails_12factor', group: :production
 
 gem 'asciidoctor', '>=1.5.0'
@@ -16,7 +16,7 @@ gem "pg"
 gem 'rack-timeout'
 gem 'tilt'
 gem 'tire'
-gem 'unicorn'
+gem 'unicorn', '>= 5.1.0'
 
 gem 'json'
 gem 'yajl-ruby'
@@ -32,7 +32,7 @@ gem 'nokogiri'
 gem 'compass-rails'
 gem 'coffee-rails'
 gem 'jquery-rails'
-gem 'sass-rails', '4.0.3'
+gem 'sass-rails', '6.0.0'
 gem 'uglifier'
 
 group :development do
