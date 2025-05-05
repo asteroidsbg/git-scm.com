@@ -53,7 +53,7 @@ end
 group :test do
   gem 'database_cleaner'
   gem 'fabrication'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0'
   gem 'shoulda-matchers'
   gem 'webmock'
   gem 'rails-perftest'
