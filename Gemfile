@@ -7,11 +7,11 @@ gem 'rails_12factor', group: :production
 gem 'asciidoctor', '>=1.5.0'
 gem 'dalli'
 gem 'exceptional'
-gem 'faraday'
+gem 'faraday', '>= 2.14.1'
 gem 'faraday_middleware'
 gem 'memcachier'
 gem 'newrelic_rpm'
-gem 'octokit'
+gem 'octokit', '>= 4.23.0'
 gem "pg"
 gem 'rack-timeout'
 gem 'tilt'
